@@ -1,7 +1,9 @@
 body {
     width: 100vw;
     height: 100vh;
-    font-family: 'Roboto', sans-serif;
+    margin:0;
+    font-family: 'Spectral', serif;
+    overflow-x: hidden;
 }
 
 .header, .footer {
@@ -9,7 +11,7 @@ body {
     align-items: center;
     width: 100%;
     height: 7%;
-    background-color: #1F2937;
+    background-color: #000000;
     color: white;
     text-decoration: none;
 
@@ -25,7 +27,7 @@ body {
     width: 80%;
     padding-right: 15%;
     padding-left: 15%;
-    padding-bottom: 3%;
+    padding-bottom: 8%;
 }
 
 /*HEADER STUFF*/ 
@@ -56,16 +58,22 @@ body {
 
 
 .section1 {
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #1f2937;
+    background-color: #a20021;
     color: #f9faf8;
     box-shadow: 0px 3px 25px, 0 #1f2937, 0 4px 15px 0px #ccc, 0 5px 5px 0px #fff;
+    background: linear-gradient(#a2002048, #a2002048),
+    url(img/firenze.jpg) no-repeat top center;
+    background-size: 100%, 100%;
+    background-attachment: fixed;
 }
 
+
 .s1text {
-    width:300px;
+    width:500px;
     height: 255px;
 }
 
@@ -75,8 +83,8 @@ body {
     align-items: center;
     background-color: white;
     border-radius: 10px;
-    width: 255px;
-    height: 255px;
+    width: 300px;
+    height: 300px;
     margin-right: 35%;
 }
 
@@ -84,25 +92,35 @@ body {
     width:250px;
     height:250px;
     border-radius: 8px;
+    margin-right: 15%;
 
 }
 
 
 .s1h1 {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 50px;
     padding-bottom: 20px;
+}
+
+.s1h3 {
+    font-size: 25px;
 }
 
 /*SECTION 2*/
 
+.section2{
+    height: 35%;
+
+}
 
 .s2h1 {
     display:flex; 
     justify-content: center;
     margin-top: 70px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
+
 }
 
 .bcontainer {
@@ -118,8 +136,10 @@ body {
 }
 
 .boxes {
+    
     display: flex;
     justify-content: space-evenly;
+    margin-top: 5%;
 
 }
 .box {
@@ -130,17 +150,18 @@ body {
 }
 
 .boxinfo {
-    font-size: 15px;
-    margin-top: 5px;
+    font-size: 20px;
+    margin-top: 35px;
     width: 170px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .s2boximg {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 5px;
-    border: 3px solid #000;
+    border: 4px solid #000;
     transition:0.5s;
 }
 
@@ -155,7 +176,7 @@ body {
 
 .s3h3 {
     max-width: 70%;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: lighter;
     font-style: italic;
     color: #1f2937;
@@ -184,9 +205,9 @@ body {
     min-height: 100px;
     margin-right: auto;
     margin-left: auto;
-    background-color: #3881f6;
+    background-color: #2b1111;
     border-radius: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid #3f1e21;
 }
 
 .s4headers {
